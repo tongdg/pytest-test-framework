@@ -1,0 +1,10 @@
+[ {
+  "name" : "Jenkins",
+  "type" : "jenkins",
+  "url" : "http://localhost:8080/jenkins/",
+  "buildOrder" : 6,
+  "buildName" : "ykb_smoke_pytest #6",
+  "buildUrl" : "http://localhost:8080/jenkins/job/ykb_smoke_pytest/6/",
+  "reportName" : "AllureReport",
+  "reportUrl" : "http://localhost:8080/jenkins/job/ykb_smoke_pytest/6/allure"
+} ]

@@ -1,0 +1,206 @@
+{
+  "uid" : "5f596ed3af311858",
+  "name" : "test_cost_bill_process1[chrome-tongdg艺赛旗-普通员工-ykb-测试项目]",
+  "fullName" : "pc.test_cost_bill#test_cost_bill_process1[chrome-tongdg艺赛旗-普通员工-ykb-测试项目]",
+  "historyId" : "675333cebf507adecbf17967752dcbf5",
+  "time" : {
+    "start" : 1564567942193,
+    "stop" : 1564568186128,
+    "duration" : 243935
+  },
+  "description" : "费用报销单-会签（项目）-直属领导（过滤）业务-直属领导-财务-复核-出纳",
+  "descriptionHtml" : "<p>费用报销单-会签（项目）-直属领导（过滤）业务-直属领导-财务-复核-出纳</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: 公司领导查找单据失败\nassert False",
+  "statusTrace" : "pc\\test_cost_bill.py:77: in test_cost_bill_process1\n    assert result, '公司领导查找单据失败'\nE   AssertionError: 公司领导查找单据失败\nE   assert False",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "multi_browser_driver",
+    "time" : {
+      "start" : 1564567937346,
+      "stop" : 1564567942191,
+      "duration" : 4845
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "__pytest_repeat_step_number",
+    "time" : {
+      "start" : 1564567937346,
+      "stop" : 1564567937346,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "费用报销单-会签（项目）-直属领导（过滤）业务-直属领导-财务-复核-出纳",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: 公司领导查找单据失败\nassert False",
+    "statusTrace" : "pc\\test_cost_bill.py:77: in test_cost_bill_process1\n    assert result, '公司领导查找单据失败'\nE   AssertionError: 公司领导查找单据失败\nE   assert False",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "13f8ceefd206ca4c",
+      "name" : "错误截图！",
+      "source" : "13f8ceefd206ca4c.png",
+      "type" : "image/png",
+      "size" : 105478
+    }, {
+      "uid" : "dfedb9513895e3c5",
+      "name" : "log",
+      "source" : "dfedb9513895e3c5.txt",
+      "type" : "text/plain",
+      "size" : 236791
+    }, {
+      "uid" : "c1f09a02b2c51b30",
+      "name" : "stdout",
+      "source" : "c1f09a02b2c51b30.txt",
+      "type" : "text/plain",
+      "size" : 4035
+    }, {
+      "uid" : "664e73a6ba57933b",
+      "name" : "stderr",
+      "source" : "664e73a6ba57933b.txt",
+      "type" : "text/plain",
+      "size" : 27449
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "multi_browser_driver::0",
+    "time" : {
+      "start" : 1564568186396,
+      "stop" : 1564568189460,
+      "duration" : 3064
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "pc"
+  }, {
+    "name" : "suite",
+    "value" : "test_cost_bill"
+  }, {
+    "name" : "subSuite"
+  }, {
+    "name" : "host",
+    "value" : "W7-201707071701"
+  }, {
+    "name" : "thread",
+    "value" : "7944-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pc.test_cost_bill"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "enterprise",
+    "value" : "'tongdg艺赛旗'"
+  }, {
+    "name" : "login_name",
+    "value" : "'普通员工'"
+  }, {
+    "name" : "multi_browser_driver",
+    "value" : "'chrome'"
+  }, {
+    "name" : "project",
+    "value" : "'ykb-测试项目'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9a2ab509de8626e5",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 部门领导查找单据失败\nassert False",
+      "time" : {
+        "start" : 1564566416916,
+        "stop" : 1564566641973,
+        "duration" : 225057
+      }
+    }, {
+      "uid" : "3fa14a9660410a1e",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: 'D:\\\\django_study\\\\pytest_test_framework\\\\tests\\\\screenshot\\\\2019-07-31_17_37_18_excepiton.png'",
+      "time" : {
+        "start" : 1564565650162,
+        "stop" : 1564565839050,
+        "duration" : 188888
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "b1d6082f01bdecd6",
+        "reportUrl" : "http://localhost:8080/jenkins/job/ykb_smoke_pytest/5/allure/#testresult/b1d6082f01bdecd6",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: 部门领导查找单据失败\nassert False",
+        "time" : {
+          "start" : 1564566416916,
+          "stop" : 1564566641973,
+          "duration" : 225057
+        }
+      }, {
+        "uid" : "e031fe81bf76af19",
+        "reportUrl" : "http://localhost:8080/jenkins/job/ykb_smoke_pytest/4/allure/#testresult/e031fe81bf76af19",
+        "status" : "broken",
+        "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: 'D:\\\\django_study\\\\pytest_test_framework\\\\tests\\\\screenshot\\\\2019-07-31_17_37_18_excepiton.png'",
+        "time" : {
+          "start" : 1564565650162,
+          "stop" : 1564565839050,
+          "duration" : 188888
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5f596ed3af311858.json",
+  "parameterValues" : [ "'tongdg艺赛旗'", "'普通员工'", "'chrome'", "'ykb-测试项目'" ]
+}

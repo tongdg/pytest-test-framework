@@ -1,0 +1,460 @@
+{
+  "000281938c4583d193b6e621aa61ecc8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "3e3b85a3f1a127b1",
+      "reportUrl" : "http://localhost:8080/jenkins/job/ykb_smoke_pytest/5/allure/#testresult/3e3b85a3f1a127b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564566766849,
+        "stop" : 1564566896488,
+        "duration" : 129639
+      }
+    }, {
+      "uid" : "b9dcf318ac264c41",
+      "reportUrl" : "http://localhost:8080/jenkins/job/ykb_smoke_pytest/4/allure/#testresult/b9dcf318ac264c41",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564565967235,
+        "stop" : 1564566101900,
+        "duration" : 134665
+      }
+    } ]
+  },
+  "fb3219f5ddb810aca2b13d4a6fd5e8b2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "3af649544f6d881d",
+      "reportUrl" : "http://localhost:8080/jenkins/job/ykb_smoke_pytest/5/allure/#testresult/3af649544f6d881d",
+      "status" : "broken",
+      "statusDetails" : "IndexError: list index out of range",
+      "time" : {
+        "start" : 1564566603151,
+        "stop" : 1564566708924,
+        "duration" : 105773
+      }
+    }, {
+      "uid" : "52913484354fb961",
+      "reportUrl" : "http://localhost:8080/jenkins/job/ykb_smoke_pytest/4/allure/#testresult/52913484354fb961",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'bool' object has no attribute 'text'",
+      "time" : {
+        "start" : 1564565846638,
+        "stop" : 1564565986232,
+        "duration" : 139594
+      }
+    } ]
+  },
+  "90a3cd20eea272dfc82c98fbcd802d06" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "10dd473b90e69a6b",
+      "reportUrl" : "http://localhost:8080/jenkins/job/ykb_smoke_pytest/5/allure/#testresult/10dd473b90e69a6b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564566792366,
+        "stop" : 1564566917702,
+        "duration" : 125336
+      }
+    }, {
+      "uid" : "ff37cfbc42b9ff7f",
+      "reportUrl" : "http://localhost:8080/jenkins/job/ykb_smoke_pytest/4/allure/#testresult/ff37cfbc42b9ff7f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564565993913,
+        "stop" : 1564566150370,
+        "duration" : 156457
+      }
+    } ]
+  },
+  "675333cebf507adecbf17967752dcbf5" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "b1d6082f01bdecd6",
+      "reportUrl" : "http://localhost:8080/jenkins/job/ykb_smoke_pytest/5/allure/#testresult/b1d6082f01bdecd6",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 部门领导查找单据失败\nassert False",
+      "time" : {
+        "start" : 1564566416916,
+        "stop" : 1564566641973,
+        "duration" : 225057
+      }
+    }, {
+      "uid" : "e031fe81bf76af19",
+      "reportUrl" : "http://localhost:8080/jenkins/job/ykb_smoke_pytest/4/allure/#testresult/e031fe81bf76af19",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: 'D:\\\\django_study\\\\pytest_test_framework\\\\tests\\\\screenshot\\\\2019-07-31_17_37_18_excepiton.png'",
+      "time" : {
+        "start" : 1564565650162,
+        "stop" : 1564565839050,
+        "duration" : 188888
+      }
+    } ]
+  },
+  "92786beb9dcac470c69ab6508750938b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "52eabbb7668b43b4",
+      "reportUrl" : "http://localhost:8080/jenkins/job/ykb_smoke_pytest/5/allure/#testresult/52eabbb7668b43b4",
+      "status" : "broken",
+      "statusDetails" : "IndexError: list index out of range",
+      "time" : {
+        "start" : 1564566582671,
+        "stop" : 1564566652708,
+        "duration" : 70037
+      }
+    }, {
+      "uid" : "4ac130d266df9919",
+      "reportUrl" : "http://localhost:8080/jenkins/job/ykb_smoke_pytest/4/allure/#testresult/4ac130d266df9919",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: 'D:\\\\django_study\\\\pytest_test_framework\\\\tests\\\\screenshot\\\\2019-07-31_17_36_43_excepiton.png'",
+      "time" : {
+        "start" : 1564565760694,
+        "stop" : 1564565803579,
+        "duration" : 42885
+      }
+    } ]
+  },
+  "5860b056a02fdd90ed2dc00d55cd10e4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "4c394b582f400097",
+      "reportUrl" : "http://localhost:8080/jenkins/job/ykb_smoke_pytest/5/allure/#testresult/4c394b582f400097",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564566846999,
+        "stop" : 1564566922255,
+        "duration" : 75256
+      }
+    }, {
+      "uid" : "5c0c8350e01a20f4",
+      "reportUrl" : "http://localhost:8080/jenkins/job/ykb_smoke_pytest/4/allure/#testresult/5c0c8350e01a20f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564565968850,
+        "stop" : 1564566117831,
+        "duration" : 148981
+      }
+    } ]
+  },
+  "00c36432eba275a4eb9a4c751927c8ba" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "f0f5dba08eebfd4f",
+      "reportUrl" : "http://localhost:8080/jenkins/job/ykb_smoke_pytest/5/allure/#testresult/f0f5dba08eebfd4f",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'bool' object has no attribute 'text'",
+      "time" : {
+        "start" : 1564566650171,
+        "stop" : 1564566760511,
+        "duration" : 110340
+      }
+    }, {
+      "uid" : "44d54e2071508f1a",
+      "reportUrl" : "http://localhost:8080/jenkins/job/ykb_smoke_pytest/4/allure/#testresult/44d54e2071508f1a",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: 'D:\\\\django_study\\\\pytest_test_framework\\\\tests\\\\screenshot\\\\2019-07-31_17_39_19_excepiton.png'",
+      "time" : {
+        "start" : 1564565847346,
+        "stop" : 1564565959735,
+        "duration" : 112389
+      }
+    } ]
+  },
+  "d945ab52ba24a64efa1433e389f72809" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "edd11b82da1e7607",
+      "reportUrl" : "http://localhost:8080/jenkins/job/ykb_smoke_pytest/5/allure/#testresult/edd11b82da1e7607",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 部门领导查找单据失败\nassert False",
+      "time" : {
+        "start" : 1564566417734,
+        "stop" : 1564566644313,
+        "duration" : 226579
+      }
+    }, {
+      "uid" : "d95a63b6c4c7375b",
+      "reportUrl" : "http://localhost:8080/jenkins/job/ykb_smoke_pytest/4/allure/#testresult/d95a63b6c4c7375b",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: 'D:\\\\django_study\\\\pytest_test_framework\\\\tests\\\\screenshot\\\\2019-07-31_17_37_18_excepiton.png'",
+      "time" : {
+        "start" : 1564565651811,
+        "stop" : 1564565839502,
+        "duration" : 187691
+      }
+    } ]
+  },
+  "55818c81663d44b0cef8c649e9c2873d" : {
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "9a2d4356146bd071",
+      "reportUrl" : "http://localhost:8080/jenkins/job/ykb_smoke_pytest/5/allure/#testresult/9a2d4356146bd071",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 登录失败！\nassert True is not True",
+      "time" : {
+        "start" : 1564566648216,
+        "stop" : 1564566739930,
+        "duration" : 91714
+      }
+    }, {
+      "uid" : "9a0e4dba02d293d5",
+      "reportUrl" : "http://localhost:8080/jenkins/job/ykb_smoke_pytest/4/allure/#testresult/9a0e4dba02d293d5",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: 'D:\\\\django_study\\\\pytest_test_framework\\\\tests\\\\screenshot\\\\2019-07-31_17_39_07_excepiton.png'",
+      "time" : {
+        "start" : 1564565846663,
+        "stop" : 1564565948579,
+        "duration" : 101916
+      }
+    }, {
+      "uid" : "cd12559de4d13338",
+      "reportUrl" : "http://localhost:8080/jenkins/job/ykb_smoke_pytest/3/allure/#testresult/cd12559de4d13338",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 登录失败！\nassert True is not True",
+      "time" : {
+        "start" : 1564486816033,
+        "stop" : 1564486852461,
+        "duration" : 36428
+      }
+    }, {
+      "uid" : "1fa67f28c7f6d7c4",
+      "reportUrl" : "http://localhost:8080/jenkins/job/ykb_smoke_pytest/2/allure/#testresult/1fa67f28c7f6d7c4",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 登录失败！\nassert True is not True",
+      "time" : {
+        "start" : 1564486816033,
+        "stop" : 1564486852461,
+        "duration" : 36428
+      }
+    }, {
+      "uid" : "4080e1f9faf64cd5",
+      "reportUrl" : "http://localhost:8080/jenkins/job/ykb_smoke_pytest/1/allure/#testresult/4080e1f9faf64cd5",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: 'D:\\\\django_study\\\\pytest_test_framework\\\\tests\\\\screenshot\\\\2019-07-30_19_36_36_excepiton.png'",
+      "time" : {
+        "start" : 1564486559549,
+        "stop" : 1564486596673,
+        "duration" : 37124
+      }
+    } ]
+  },
+  "9ce74e7197b976fac7db569e55be1184" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "231fc2a48499c7b0",
+      "reportUrl" : "http://localhost:8080/jenkins/job/ykb_smoke_pytest/5/allure/#testresult/231fc2a48499c7b0",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 项目经理会签审批失败\nassert False",
+      "time" : {
+        "start" : 1564566417136,
+        "stop" : 1564566596599,
+        "duration" : 179463
+      }
+    }, {
+      "uid" : "6bf994569e6ede69",
+      "reportUrl" : "http://localhost:8080/jenkins/job/ykb_smoke_pytest/4/allure/#testresult/6bf994569e6ede69",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: 'D:\\\\django_study\\\\pytest_test_framework\\\\tests\\\\screenshot\\\\2019-07-31_17_37_18_excepiton.png'",
+      "time" : {
+        "start" : 1564565651495,
+        "stop" : 1564565840201,
+        "duration" : 188706
+      }
+    } ]
+  },
+  "2c62be14c4e3cc721494ca54714d968f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "9913473c6cda3afc",
+      "reportUrl" : "http://localhost:8080/jenkins/job/ykb_smoke_pytest/5/allure/#testresult/9913473c6cda3afc",
+      "status" : "broken",
+      "statusDetails" : "TypeError: can only concatenate str (not \"WebDriverException\") to str",
+      "time" : {
+        "start" : 1564566418021,
+        "stop" : 1564566576539,
+        "duration" : 158518
+      }
+    }, {
+      "uid" : "cc89ca3f7eb2d33",
+      "reportUrl" : "http://localhost:8080/jenkins/job/ykb_smoke_pytest/4/allure/#testresult/cc89ca3f7eb2d33",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: 'D:\\\\django_study\\\\pytest_test_framework\\\\tests\\\\screenshot\\\\2019-07-31_17_35_54_excepiton.png'",
+      "time" : {
+        "start" : 1564565651266,
+        "stop" : 1564565754902,
+        "duration" : 103636
+      }
+    } ]
+  },
+  "4e3bcebfcbe0bba281582afce9b0f940" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "37bd2fdad50a2edd",
+      "reportUrl" : "http://localhost:8080/jenkins/job/ykb_smoke_pytest/5/allure/#testresult/37bd2fdad50a2edd",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'bool' object has no attribute 'text'",
+      "time" : {
+        "start" : 1564566660552,
+        "stop" : 1564566784125,
+        "duration" : 123573
+      }
+    }, {
+      "uid" : "b84f21642bf42583",
+      "reportUrl" : "http://localhost:8080/jenkins/job/ykb_smoke_pytest/4/allure/#testresult/b84f21642bf42583",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: 'D:\\\\django_study\\\\pytest_test_framework\\\\tests\\\\screenshot\\\\2019-07-31_17_37_26_excepiton.png'",
+      "time" : {
+        "start" : 1564565809137,
+        "stop" : 1564565848107,
+        "duration" : 38970
+      }
+    } ]
+  },
+  "67bc6d63c61934dafe98172c07179fab" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "82621079191298e7",
+      "reportUrl" : "http://localhost:8080/jenkins/job/ykb_smoke_pytest/5/allure/#testresult/82621079191298e7",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'bool' object has no attribute 'text'",
+      "time" : {
+        "start" : 1564566746224,
+        "stop" : 1564566862768,
+        "duration" : 116544
+      }
+    }, {
+      "uid" : "a4dacbad9c168a2",
+      "reportUrl" : "http://localhost:8080/jenkins/job/ykb_smoke_pytest/4/allure/#testresult/a4dacbad9c168a2",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: 'D:\\\\django_study\\\\pytest_test_framework\\\\tests\\\\screenshot\\\\2019-07-31_17_41_06_excepiton.png'",
+      "time" : {
+        "start" : 1564565954539,
+        "stop" : 1564566066695,
+        "duration" : 112156
+      }
+    } ]
+  },
+  "ad327add3a9e2ad84f5ffd8fecd81379" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "47a34a03e96f5c01",
+      "reportUrl" : "http://localhost:8080/jenkins/job/ykb_smoke_pytest/5/allure/#testresult/47a34a03e96f5c01",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'bool' object has no attribute 'text'",
+      "time" : {
+        "start" : 1564566716944,
+        "stop" : 1564566840396,
+        "duration" : 123452
+      }
+    }, {
+      "uid" : "e773936281859e2d",
+      "reportUrl" : "http://localhost:8080/jenkins/job/ykb_smoke_pytest/4/allure/#testresult/e773936281859e2d",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: 'D:\\\\django_study\\\\pytest_test_framework\\\\tests\\\\screenshot\\\\2019-07-31_17_39_21_excepiton.png'",
+      "time" : {
+        "start" : 1564565855220,
+        "stop" : 1564565962315,
+        "duration" : 107095
+      }
+    } ]
+  }
+}

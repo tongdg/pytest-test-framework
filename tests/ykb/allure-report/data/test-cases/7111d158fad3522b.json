@@ -1,0 +1,139 @@
+{
+  "uid" : "7111d158fad3522b",
+  "name" : "test_evection_process3[chrome-tongdg艺赛旗-普通员工-ykb-测试小组]",
+  "fullName" : "pc.test_evection_bill#test_evection_process3[chrome-tongdg艺赛旗-普通员工-ykb-测试小组]",
+  "historyId" : "fb3219f5ddb810aca2b13d4a6fd5e8b2",
+  "time" : {
+    "start" : 1564565846638,
+    "stop" : 1564565986232,
+    "duration" : 139594
+  },
+  "description" : "出差申请单-部门带出会签-业务（过滤）-直属领导",
+  "descriptionHtml" : "<p>出差申请单-部门带出会签-业务（过滤）-直属领导</p>\n",
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'bool' object has no attribute 'text'",
+  "statusTrace" : "pc\\test_evection_bill.py:185: in test_evection_process3\n    result = appro_page.enter_fill_evecation_bill(department=department)\nc:\\python37\\lib\\site-packages\\ykb\\pc\\bill_page.py:679: in enter_fill_evecation_bill\n    return self.__fill_evection_bill(department, project, switch)\nc:\\python37\\lib\\site-packages\\ykb\\pc\\bill_page.py:626: in __fill_evection_bill\n    if \"出差申请单\" not in self.evection_apply_bill.text:\nE   AttributeError: 'bool' object has no attribute 'text'",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "multi_browser_driver",
+    "time" : {
+      "start" : 1564565843347,
+      "stop" : 1564565846636,
+      "duration" : 3289
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "__pytest_repeat_step_number",
+    "time" : {
+      "start" : 1564565843347,
+      "stop" : 1564565843347,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "出差申请单-部门带出会签-业务（过滤）-直属领导",
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'bool' object has no attribute 'text'",
+    "statusTrace" : "pc\\test_evection_bill.py:185: in test_evection_process3\n    result = appro_page.enter_fill_evecation_bill(department=department)\nc:\\python37\\lib\\site-packages\\ykb\\pc\\bill_page.py:679: in enter_fill_evecation_bill\n    return self.__fill_evection_bill(department, project, switch)\nc:\\python37\\lib\\site-packages\\ykb\\pc\\bill_page.py:626: in __fill_evection_bill\n    if \"出差申请单\" not in self.evection_apply_bill.text:\nE   AttributeError: 'bool' object has no attribute 'text'",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ec11402f0c015922",
+      "name" : "log",
+      "source" : "ec11402f0c015922.txt",
+      "type" : "text/plain",
+      "size" : 26046
+    }, {
+      "uid" : "69e5e1a0fd816cd2",
+      "name" : "stderr",
+      "source" : "69e5e1a0fd816cd2.txt",
+      "type" : "text/plain",
+      "size" : 2094
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "multi_browser_driver::0",
+    "time" : {
+      "start" : 1564565986353,
+      "stop" : 1564565990538,
+      "duration" : 4185
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "pc"
+  }, {
+    "name" : "suite",
+    "value" : "test_evection_bill"
+  }, {
+    "name" : "subSuite"
+  }, {
+    "name" : "host",
+    "value" : "W7-201707071701"
+  }, {
+    "name" : "thread",
+    "value" : "10904-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pc.test_evection_bill"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "department",
+    "value" : "'ykb-测试小组'"
+  }, {
+    "name" : "enterprise",
+    "value" : "'tongdg艺赛旗'"
+  }, {
+    "name" : "login_name",
+    "value" : "'普通员工'"
+  }, {
+    "name" : "multi_browser_driver",
+    "value" : "'chrome'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7111d158fad3522b.json",
+  "parameterValues" : [ "'ykb-测试小组'", "'tongdg艺赛旗'", "'普通员工'", "'chrome'" ]
+}

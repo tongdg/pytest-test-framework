@@ -1,0 +1,212 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "pc",
+    "children" : [ {
+      "name" : "test_evection_bill",
+      "children" : [ {
+        "children" : [ {
+          "name" : "test_evection_process2[chrome-tongdg艺赛旗-普通员工]",
+          "uid" : "600aa27e943a8a1c",
+          "parentUid" : "e33d63fcc0498e1a6c334df6492b77cc",
+          "status" : "broken",
+          "time" : {
+            "start" : 1564566582671,
+            "stop" : 1564566652708,
+            "duration" : 70037
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'tongdg艺赛旗'", "'普通员工'", "'chrome'" ]
+        }, {
+          "name" : "test_evection_process3[chrome-tongdg艺赛旗-普通员工-ykb-测试小组]",
+          "uid" : "7c3e2469e8db5b6a",
+          "parentUid" : "e33d63fcc0498e1a6c334df6492b77cc",
+          "status" : "broken",
+          "time" : {
+            "start" : 1564566603151,
+            "stop" : 1564566708924,
+            "duration" : 105773
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'ykb-测试小组'", "'tongdg艺赛旗'", "'普通员工'", "'chrome'" ]
+        }, {
+          "name" : "test_evection_process1[chrome-tongdg艺赛旗-普通员工-ykb-测试小组-ykb-测试项目]",
+          "uid" : "e58f5030cdc8f8b8",
+          "parentUid" : "e33d63fcc0498e1a6c334df6492b77cc",
+          "status" : "broken",
+          "time" : {
+            "start" : 1564566650171,
+            "stop" : 1564566760511,
+            "duration" : 110340
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'ykb-测试小组'", "'tongdg艺赛旗'", "'普通员工'", "'chrome'", "'ykb-测试项目'" ]
+        }, {
+          "name" : "test_evection_process4[chrome-tongdg艺赛旗-普通员工-ykb-测试项目]",
+          "uid" : "2f3c86f908aaba1d",
+          "parentUid" : "e33d63fcc0498e1a6c334df6492b77cc",
+          "status" : "broken",
+          "time" : {
+            "start" : 1564566660552,
+            "stop" : 1564566784125,
+            "duration" : 123573
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'tongdg艺赛旗'", "'普通员工'", "'chrome'", "'ykb-测试项目'" ]
+        }, {
+          "name" : "test_evection_process5[chrome-tongdg艺赛旗-普通员工]",
+          "uid" : "8aa56fc576d8f2ba",
+          "parentUid" : "e33d63fcc0498e1a6c334df6492b77cc",
+          "status" : "broken",
+          "time" : {
+            "start" : 1564566716944,
+            "stop" : 1564566840396,
+            "duration" : 123452
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'tongdg艺赛旗'", "'普通员工'", "'chrome'" ]
+        } ],
+        "uid" : "e33d63fcc0498e1a6c334df6492b77cc"
+      } ],
+      "uid" : "8b61741efe10001b767e90141b476d84"
+    }, {
+      "name" : "test_fill_bill",
+      "children" : [ {
+        "children" : [ {
+          "name" : "test_enter_fill_evecation_bill[chrome]",
+          "uid" : "fb48701fa5f0c63a",
+          "parentUid" : "c10a6eed98aaa6f084c2622707f68dc8",
+          "status" : "broken",
+          "time" : {
+            "start" : 1564566746224,
+            "stop" : 1564566862768,
+            "duration" : 116544
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'chrome'" ]
+        }, {
+          "name" : "test_enter_fill_loan_bill[chrome]",
+          "uid" : "966e5bd4d095421d",
+          "parentUid" : "c10a6eed98aaa6f084c2622707f68dc8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1564566766849,
+            "stop" : 1564566896488,
+            "duration" : 129639
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'chrome'" ]
+        }, {
+          "name" : "test_enter_fill_travel_reimbursement_bill[chrome]",
+          "uid" : "f1e039092a88c4a9",
+          "parentUid" : "c10a6eed98aaa6f084c2622707f68dc8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1564566792366,
+            "stop" : 1564566917702,
+            "duration" : 125336
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'chrome'" ]
+        }, {
+          "name" : "test_enter_fill_cost_bill[chrome]",
+          "uid" : "c7eeadadb359061f",
+          "parentUid" : "c10a6eed98aaa6f084c2622707f68dc8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1564566846999,
+            "stop" : 1564566922255,
+            "duration" : 75256
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'chrome'" ]
+        } ],
+        "uid" : "c10a6eed98aaa6f084c2622707f68dc8"
+      } ],
+      "uid" : "1f650cbb6802a410fdd0013638953e30"
+    }, {
+      "name" : "test_cost_bill",
+      "children" : [ {
+        "children" : [ {
+          "name" : "test_cost_bill_process4[chrome-tongdg艺赛旗-普通员工-ykb-测试小组-ykb-测试项目]",
+          "uid" : "a3042bc9e8d368fd",
+          "parentUid" : "b3e45d2946dda55dd891454985a73e28",
+          "status" : "broken",
+          "time" : {
+            "start" : 1564567942107,
+            "stop" : 1564568211114,
+            "duration" : 269007
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'ykb-测试小组'", "'tongdg艺赛旗'", "'普通员工'", "'chrome'", "'ykb-测试项目'" ]
+        }, {
+          "name" : "test_cost_bill_process1[chrome-tongdg艺赛旗-普通员工-ykb-测试项目]",
+          "uid" : "5f596ed3af311858",
+          "parentUid" : "b3e45d2946dda55dd891454985a73e28",
+          "status" : "failed",
+          "time" : {
+            "start" : 1564567942193,
+            "stop" : 1564568186128,
+            "duration" : 243935
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'tongdg艺赛旗'", "'普通员工'", "'chrome'", "'ykb-测试项目'" ]
+        }, {
+          "name" : "test_cost_bill_process3[chrome-tongdg艺赛旗-普通员工]",
+          "uid" : "12b747a2e5c03a7f",
+          "parentUid" : "b3e45d2946dda55dd891454985a73e28",
+          "status" : "broken",
+          "time" : {
+            "start" : 1564567942488,
+            "stop" : 1564568105865,
+            "duration" : 163377
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'tongdg艺赛旗'", "'普通员工'", "'chrome'" ]
+        }, {
+          "name" : "test_cost_bill_process2[chrome-tongdg艺赛旗-普通员工-ykb-测试项目]",
+          "uid" : "14404258acaa2788",
+          "parentUid" : "b3e45d2946dda55dd891454985a73e28",
+          "status" : "broken",
+          "time" : {
+            "start" : 1564567942717,
+            "stop" : 1564568210772,
+            "duration" : 268055
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'tongdg艺赛旗'", "'普通员工'", "'chrome'", "'ykb-测试项目'" ]
+        }, {
+          "name" : "test_allure_report[chrome]",
+          "uid" : "df144925100c2ef0",
+          "parentUid" : "b3e45d2946dda55dd891454985a73e28",
+          "status" : "failed",
+          "time" : {
+            "start" : 1564568193512,
+            "stop" : 1564568263082,
+            "duration" : 69570
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'chrome'" ]
+        } ],
+        "uid" : "b3e45d2946dda55dd891454985a73e28"
+      } ],
+      "uid" : "4fbc19ce2f2e9e9f0801bce15cb148df"
+    } ],
+    "uid" : "5a223ad801f730170338e3fa6438159b"
+  } ]
+}

@@ -1,0 +1,209 @@
+{
+  "uid" : "a3042bc9e8d368fd",
+  "name" : "test_cost_bill_process4[chrome-tongdg艺赛旗-普通员工-ykb-测试小组-ykb-测试项目]",
+  "fullName" : "pc.test_cost_bill#test_cost_bill_process4[chrome-tongdg艺赛旗-普通员工-ykb-测试小组-ykb-测试项目]",
+  "historyId" : "9ce74e7197b976fac7db569e55be1184",
+  "time" : {
+    "start" : 1564567942107,
+    "stop" : 1564568211114,
+    "duration" : 269007
+  },
+  "description" : "费用报销单-两个会签-直属领导（过滤）业务-直属领导-财务-复核出纳",
+  "descriptionHtml" : "<p>费用报销单-两个会签-直属领导（过滤）业务-直属领导-财务-复核出纳</p>\n",
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'bool' object has no attribute 'text'",
+  "statusTrace" : "pc\\test_cost_bill.py:541: in test_cost_bill_process4\n    result = appro_page.judge_new_approval_process('审批中')\nc:\\python37\\lib\\site-packages\\ykb\\pc\\approval_page.py:590: in judge_new_approval_process\n    if '会签中' in self.approval_status.text:\nE   AttributeError: 'bool' object has no attribute 'text'",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "multi_browser_driver",
+    "time" : {
+      "start" : 1564567937360,
+      "stop" : 1564567942105,
+      "duration" : 4745
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "__pytest_repeat_step_number",
+    "time" : {
+      "start" : 1564567937360,
+      "stop" : 1564567937360,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "费用报销单-两个会签-直属领导（过滤）业务-直属领导-财务-复核出纳",
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'bool' object has no attribute 'text'",
+    "statusTrace" : "pc\\test_cost_bill.py:541: in test_cost_bill_process4\n    result = appro_page.judge_new_approval_process('审批中')\nc:\\python37\\lib\\site-packages\\ykb\\pc\\approval_page.py:590: in judge_new_approval_process\n    if '会签中' in self.approval_status.text:\nE   AttributeError: 'bool' object has no attribute 'text'",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7039453efcc8c1c6",
+      "name" : "错误截图！",
+      "source" : "7039453efcc8c1c6.png",
+      "type" : "image/png",
+      "size" : 58212
+    }, {
+      "uid" : "3b8c82414f4ff762",
+      "name" : "log",
+      "source" : "3b8c82414f4ff762.txt",
+      "type" : "text/plain",
+      "size" : 211990
+    }, {
+      "uid" : "d38ae764fd45b5f0",
+      "name" : "stdout",
+      "source" : "d38ae764fd45b5f0.txt",
+      "type" : "text/plain",
+      "size" : 1660
+    }, {
+      "uid" : "25cf2b9be2f9632a",
+      "name" : "stderr",
+      "source" : "25cf2b9be2f9632a.txt",
+      "type" : "text/plain",
+      "size" : 27232
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "multi_browser_driver::0",
+    "time" : {
+      "start" : 1564568211463,
+      "stop" : 1564568214000,
+      "duration" : 2537
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "pc"
+  }, {
+    "name" : "suite",
+    "value" : "test_cost_bill"
+  }, {
+    "name" : "subSuite"
+  }, {
+    "name" : "host",
+    "value" : "W7-201707071701"
+  }, {
+    "name" : "thread",
+    "value" : "7868-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pc.test_cost_bill"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "department",
+    "value" : "'ykb-测试小组'"
+  }, {
+    "name" : "enterprise",
+    "value" : "'tongdg艺赛旗'"
+  }, {
+    "name" : "login_name",
+    "value" : "'普通员工'"
+  }, {
+    "name" : "multi_browser_driver",
+    "value" : "'chrome'"
+  }, {
+    "name" : "project",
+    "value" : "'ykb-测试项目'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ec65d900495a4698",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 项目经理会签审批失败\nassert False",
+      "time" : {
+        "start" : 1564566417136,
+        "stop" : 1564566596599,
+        "duration" : 179463
+      }
+    }, {
+      "uid" : "f1a76844318df7a2",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: 'D:\\\\django_study\\\\pytest_test_framework\\\\tests\\\\screenshot\\\\2019-07-31_17_37_18_excepiton.png'",
+      "time" : {
+        "start" : 1564565651495,
+        "stop" : 1564565840201,
+        "duration" : 188706
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "231fc2a48499c7b0",
+        "reportUrl" : "http://localhost:8080/jenkins/job/ykb_smoke_pytest/5/allure/#testresult/231fc2a48499c7b0",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: 项目经理会签审批失败\nassert False",
+        "time" : {
+          "start" : 1564566417136,
+          "stop" : 1564566596599,
+          "duration" : 179463
+        }
+      }, {
+        "uid" : "6bf994569e6ede69",
+        "reportUrl" : "http://localhost:8080/jenkins/job/ykb_smoke_pytest/4/allure/#testresult/6bf994569e6ede69",
+        "status" : "broken",
+        "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: 'D:\\\\django_study\\\\pytest_test_framework\\\\tests\\\\screenshot\\\\2019-07-31_17_37_18_excepiton.png'",
+        "time" : {
+          "start" : 1564565651495,
+          "stop" : 1564565840201,
+          "duration" : 188706
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a3042bc9e8d368fd.json",
+  "parameterValues" : [ "'ykb-测试小组'", "'tongdg艺赛旗'", "'普通员工'", "'chrome'", "'ykb-测试项目'" ]
+}

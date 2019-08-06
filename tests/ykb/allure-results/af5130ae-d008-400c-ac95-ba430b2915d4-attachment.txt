@@ -1,0 +1,87 @@
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:49546/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:205 Starting new HTTP connection (1): 127.0.0.1:49546
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:393 http://127.0.0.1:49546 "POST /session HTTP/1.1" 200 891
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[32mINFO    [0m root:logger.py:33 --[普通员工登录]
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:49546/session/b4f655bb80968ae855a53d88da3fa5a2/window/current/maximize {"windowHandle": "current", "sessionId": "b4f655bb80968ae855a53d88da3fa5a2"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:393 http://127.0.0.1:49546 "POST /session/b4f655bb80968ae855a53d88da3fa5a2/window/current/maximize HTTP/1.1" 200 72
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:49546/session/b4f655bb80968ae855a53d88da3fa5a2/url {"url": "http://120.132.23.147:840/logon", "sessionId": "b4f655bb80968ae855a53d88da3fa5a2"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:393 http://127.0.0.1:49546 "POST /session/b4f655bb80968ae855a53d88da3fa5a2/url HTTP/1.1" 200 72
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:49546/session/b4f655bb80968ae855a53d88da3fa5a2/element {"using": "link text", "value": "\u767b\u5f55", "sessionId": "b4f655bb80968ae855a53d88da3fa5a2"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:393 http://127.0.0.1:49546 "POST /session/b4f655bb80968ae855a53d88da3fa5a2/element HTTP/1.1" 200 104
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[32mINFO    [0m root:logger.py:33 --[ 登录 find ok]
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:49546/session/b4f655bb80968ae855a53d88da3fa5a2/element/0.053715425238155756-1/click {"id": "0.053715425238155756-1", "sessionId": "b4f655bb80968ae855a53d88da3fa5a2"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:393 http://127.0.0.1:49546 "POST /session/b4f655bb80968ae855a53d88da3fa5a2/element/0.053715425238155756-1/click HTTP/1.1" 200 72
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[32mINFO    [0m root:logger.py:33 --[ click ok ]
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:49546/session/b4f655bb80968ae855a53d88da3fa5a2/element {"using": "id", "value": "LoginName", "sessionId": "b4f655bb80968ae855a53d88da3fa5a2"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:393 http://127.0.0.1:49546 "POST /session/b4f655bb80968ae855a53d88da3fa5a2/element HTTP/1.1" 200 104
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[32mINFO    [0m root:logger.py:33 --[ LoginName find ok]
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:49546/session/b4f655bb80968ae855a53d88da3fa5a2/element/0.053715425238155756-2/value {"text": "16700000001", "value": ["1", "6", "7", "0", "0", "0", "0", "0", "0", "0", "1"], "id": "0.053715425238155756-2", "sessionId": "b4f655bb80968ae855a53d88da3fa5a2"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:393 http://127.0.0.1:49546 "POST /session/b4f655bb80968ae855a53d88da3fa5a2/element/0.053715425238155756-2/value HTTP/1.1" 200 72
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[32mINFO    [0m root:logger.py:33 --[ send_keys ok ]
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:49546/session/b4f655bb80968ae855a53d88da3fa5a2/element {"using": "id", "value": "Password", "sessionId": "b4f655bb80968ae855a53d88da3fa5a2"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:393 http://127.0.0.1:49546 "POST /session/b4f655bb80968ae855a53d88da3fa5a2/element HTTP/1.1" 200 104
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[32mINFO    [0m root:logger.py:33 --[ Password find ok]
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:49546/session/b4f655bb80968ae855a53d88da3fa5a2/element/0.053715425238155756-3/value {"text": "123456", "value": ["1", "2", "3", "4", "5", "6"], "id": "0.053715425238155756-3", "sessionId": "b4f655bb80968ae855a53d88da3fa5a2"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:393 http://127.0.0.1:49546 "POST /session/b4f655bb80968ae855a53d88da3fa5a2/element/0.053715425238155756-3/value HTTP/1.1" 200 72
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[32mINFO    [0m root:logger.py:33 --[ send_keys ok ]
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:49546/session/b4f655bb80968ae855a53d88da3fa5a2/element {"using": "id", "value": "loginBtn", "sessionId": "b4f655bb80968ae855a53d88da3fa5a2"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:393 http://127.0.0.1:49546 "POST /session/b4f655bb80968ae855a53d88da3fa5a2/element HTTP/1.1" 200 104
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[32mINFO    [0m root:logger.py:33 --[ loginBtn find ok]
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:49546/session/b4f655bb80968ae855a53d88da3fa5a2/element/0.053715425238155756-4/click {"id": "0.053715425238155756-4", "sessionId": "b4f655bb80968ae855a53d88da3fa5a2"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:393 http://127.0.0.1:49546 "POST /session/b4f655bb80968ae855a53d88da3fa5a2/element/0.053715425238155756-4/click HTTP/1.1" 200 72
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[32mINFO    [0m root:logger.py:33 --[ click ok ]
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:49546/session/b4f655bb80968ae855a53d88da3fa5a2/element {"using": "css selector", "value": "span[class='seldropdown']", "sessionId": "b4f655bb80968ae855a53d88da3fa5a2"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:393 http://127.0.0.1:49546 "POST /session/b4f655bb80968ae855a53d88da3fa5a2/element HTTP/1.1" 200 364
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:49546/session/b4f655bb80968ae855a53d88da3fa5a2/element {"using": "css selector", "value": "span[class='seldropdown']", "sessionId": "b4f655bb80968ae855a53d88da3fa5a2"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:393 http://127.0.0.1:49546 "POST /session/b4f655bb80968ae855a53d88da3fa5a2/element HTTP/1.1" 200 364
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:49546/session/b4f655bb80968ae855a53d88da3fa5a2/element {"using": "css selector", "value": "span[class='seldropdown']", "sessionId": "b4f655bb80968ae855a53d88da3fa5a2"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:393 http://127.0.0.1:49546 "POST /session/b4f655bb80968ae855a53d88da3fa5a2/element HTTP/1.1" 200 364
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:49546/session/b4f655bb80968ae855a53d88da3fa5a2/element {"using": "css selector", "value": "span[class='seldropdown']", "sessionId": "b4f655bb80968ae855a53d88da3fa5a2"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:393 http://127.0.0.1:49546 "POST /session/b4f655bb80968ae855a53d88da3fa5a2/element HTTP/1.1" 200 364
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:49546/session/b4f655bb80968ae855a53d88da3fa5a2/element {"using": "css selector", "value": "span[class='seldropdown']", "sessionId": "b4f655bb80968ae855a53d88da3fa5a2"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:393 http://127.0.0.1:49546 "POST /session/b4f655bb80968ae855a53d88da3fa5a2/element HTTP/1.1" 200 364
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:49546/session/b4f655bb80968ae855a53d88da3fa5a2/element {"using": "css selector", "value": "span[class='seldropdown']", "sessionId": "b4f655bb80968ae855a53d88da3fa5a2"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:393 http://127.0.0.1:49546 "POST /session/b4f655bb80968ae855a53d88da3fa5a2/element HTTP/1.1" 200 364
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:49546/session/b4f655bb80968ae855a53d88da3fa5a2/element {"using": "css selector", "value": "span[class='seldropdown']", "sessionId": "b4f655bb80968ae855a53d88da3fa5a2"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:393 http://127.0.0.1:49546 "POST /session/b4f655bb80968ae855a53d88da3fa5a2/element HTTP/1.1" 200 364
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:49546/session/b4f655bb80968ae855a53d88da3fa5a2/element {"using": "css selector", "value": "span[class='seldropdown']", "sessionId": "b4f655bb80968ae855a53d88da3fa5a2"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:393 http://127.0.0.1:49546 "POST /session/b4f655bb80968ae855a53d88da3fa5a2/element HTTP/1.1" 200 364
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:49546/session/b4f655bb80968ae855a53d88da3fa5a2/element {"using": "css selector", "value": "span[class='seldropdown']", "sessionId": "b4f655bb80968ae855a53d88da3fa5a2"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:393 http://127.0.0.1:49546 "POST /session/b4f655bb80968ae855a53d88da3fa5a2/element HTTP/1.1" 200 364
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:49546/session/b4f655bb80968ae855a53d88da3fa5a2/element {"using": "css selector", "value": "span[class='seldropdown']", "sessionId": "b4f655bb80968ae855a53d88da3fa5a2"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:393 http://127.0.0.1:49546 "POST /session/b4f655bb80968ae855a53d88da3fa5a2/element HTTP/1.1" 200 364
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:49546/session/b4f655bb80968ae855a53d88da3fa5a2/element {"using": "css selector", "value": "span[class='seldropdown']", "sessionId": "b4f655bb80968ae855a53d88da3fa5a2"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:393 http://127.0.0.1:49546 "POST /session/b4f655bb80968ae855a53d88da3fa5a2/element HTTP/1.1" 200 364
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:49546/session/b4f655bb80968ae855a53d88da3fa5a2/element {"using": "css selector", "value": "span[class='seldropdown']", "sessionId": "b4f655bb80968ae855a53d88da3fa5a2"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:393 http://127.0.0.1:49546 "POST /session/b4f655bb80968ae855a53d88da3fa5a2/element HTTP/1.1" 200 103
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[32mINFO    [0m root:logger.py:33 --[ span[class='seldropdown'] find ok]
+[35mDEBUG   [0m root:logger.py:35 --[ ordinarystaff ok]
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 GET http://127.0.0.1:49546/session/b4f655bb80968ae855a53d88da3fa5a2/screenshot {"sessionId": "b4f655bb80968ae855a53d88da3fa5a2"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:393 http://127.0.0.1:49546 "GET /session/b4f655bb80968ae855a53d88da3fa5a2/screenshot HTTP/1.1" 200 212886
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 DELETE http://127.0.0.1:49546/session/b4f655bb80968ae855a53d88da3fa5a2 {"sessionId": "b4f655bb80968ae855a53d88da3fa5a2"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:393 http://127.0.0.1:49546 "DELETE /session/b4f655bb80968ae855a53d88da3fa5a2 HTTP/1.1" 200 72
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request

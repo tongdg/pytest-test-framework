@@ -1,0 +1,56 @@
+INFO     root:logger.py:33 --[普通员工登录]
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:53602/session/ac2332811c07a2f68c2c1ebce100e9e4/window/current/maximize {"windowHandle": "current", "sessionId": "ac2332811c07a2f68c2c1ebce100e9e4"}
+DEBUG    urllib3.connectionpool:connectionpool.py:393 http://127.0.0.1:53602 "POST /session/ac2332811c07a2f68c2c1ebce100e9e4/window/current/maximize HTTP/1.1" 200 72
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:53602/session/ac2332811c07a2f68c2c1ebce100e9e4/url {"url": "http://120.132.23.147:840/logon", "sessionId": "ac2332811c07a2f68c2c1ebce100e9e4"}
+DEBUG    urllib3.connectionpool:connectionpool.py:393 http://127.0.0.1:53602 "POST /session/ac2332811c07a2f68c2c1ebce100e9e4/url HTTP/1.1" 200 72
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:53602/session/ac2332811c07a2f68c2c1ebce100e9e4/element {"using": "link text", "value": "\u767b\u5f55", "sessionId": "ac2332811c07a2f68c2c1ebce100e9e4"}
+DEBUG    urllib3.connectionpool:connectionpool.py:393 http://127.0.0.1:53602 "POST /session/ac2332811c07a2f68c2c1ebce100e9e4/element HTTP/1.1" 200 101
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:logger.py:33 --[ 登录 find ok]
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:53602/session/ac2332811c07a2f68c2c1ebce100e9e4/element/0.283441173291731-1/click {"id": "0.283441173291731-1", "sessionId": "ac2332811c07a2f68c2c1ebce100e9e4"}
+DEBUG    urllib3.connectionpool:connectionpool.py:393 http://127.0.0.1:53602 "POST /session/ac2332811c07a2f68c2c1ebce100e9e4/element/0.283441173291731-1/click HTTP/1.1" 200 72
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:logger.py:33 --[ click ok ]
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:53602/session/ac2332811c07a2f68c2c1ebce100e9e4/element {"using": "id", "value": "LoginName", "sessionId": "ac2332811c07a2f68c2c1ebce100e9e4"}
+DEBUG    urllib3.connectionpool:connectionpool.py:393 http://127.0.0.1:53602 "POST /session/ac2332811c07a2f68c2c1ebce100e9e4/element HTTP/1.1" 200 101
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:logger.py:33 --[ LoginName find ok]
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:53602/session/ac2332811c07a2f68c2c1ebce100e9e4/element/0.283441173291731-2/value {"text": "16700000001", "value": ["1", "6", "7", "0", "0", "0", "0", "0", "0", "0", "1"], "id": "0.283441173291731-2", "sessionId": "ac2332811c07a2f68c2c1ebce100e9e4"}
+DEBUG    urllib3.connectionpool:connectionpool.py:393 http://127.0.0.1:53602 "POST /session/ac2332811c07a2f68c2c1ebce100e9e4/element/0.283441173291731-2/value HTTP/1.1" 200 72
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:logger.py:33 --[ send_keys ok ]
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:53602/session/ac2332811c07a2f68c2c1ebce100e9e4/element {"using": "id", "value": "Password", "sessionId": "ac2332811c07a2f68c2c1ebce100e9e4"}
+DEBUG    urllib3.connectionpool:connectionpool.py:393 http://127.0.0.1:53602 "POST /session/ac2332811c07a2f68c2c1ebce100e9e4/element HTTP/1.1" 200 101
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:logger.py:33 --[ Password find ok]
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:53602/session/ac2332811c07a2f68c2c1ebce100e9e4/element/0.283441173291731-3/value {"text": "123456", "value": ["1", "2", "3", "4", "5", "6"], "id": "0.283441173291731-3", "sessionId": "ac2332811c07a2f68c2c1ebce100e9e4"}
+DEBUG    urllib3.connectionpool:connectionpool.py:393 http://127.0.0.1:53602 "POST /session/ac2332811c07a2f68c2c1ebce100e9e4/element/0.283441173291731-3/value HTTP/1.1" 200 72
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:logger.py:33 --[ send_keys ok ]
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:53602/session/ac2332811c07a2f68c2c1ebce100e9e4/element {"using": "id", "value": "loginBtn", "sessionId": "ac2332811c07a2f68c2c1ebce100e9e4"}
+DEBUG    urllib3.connectionpool:connectionpool.py:393 http://127.0.0.1:53602 "POST /session/ac2332811c07a2f68c2c1ebce100e9e4/element HTTP/1.1" 200 101
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:logger.py:33 --[ loginBtn find ok]
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:53602/session/ac2332811c07a2f68c2c1ebce100e9e4/element/0.283441173291731-4/click {"id": "0.283441173291731-4", "sessionId": "ac2332811c07a2f68c2c1ebce100e9e4"}
+DEBUG    urllib3.connectionpool:connectionpool.py:393 http://127.0.0.1:53602 "POST /session/ac2332811c07a2f68c2c1ebce100e9e4/element/0.283441173291731-4/click HTTP/1.1" 200 72
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:logger.py:33 --[ click ok ]
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:53602/session/ac2332811c07a2f68c2c1ebce100e9e4/element {"using": "css selector", "value": "span[class='seldropdown']", "sessionId": "ac2332811c07a2f68c2c1ebce100e9e4"}
+DEBUG    urllib3.connectionpool:connectionpool.py:393 http://127.0.0.1:53602 "POST /session/ac2332811c07a2f68c2c1ebce100e9e4/element HTTP/1.1" 200 364
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:53602/session/ac2332811c07a2f68c2c1ebce100e9e4/element {"using": "css selector", "value": "span[class='seldropdown']", "sessionId": "ac2332811c07a2f68c2c1ebce100e9e4"}
+DEBUG    urllib3.connectionpool:connectionpool.py:393 http://127.0.0.1:53602 "POST /session/ac2332811c07a2f68c2c1ebce100e9e4/element HTTP/1.1" 200 364
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:53602/session/ac2332811c07a2f68c2c1ebce100e9e4/element {"using": "css selector", "value": "span[class='seldropdown']", "sessionId": "ac2332811c07a2f68c2c1ebce100e9e4"}
+DEBUG    urllib3.connectionpool:connectionpool.py:393 http://127.0.0.1:53602 "POST /session/ac2332811c07a2f68c2c1ebce100e9e4/element HTTP/1.1" 200 102
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:logger.py:33 --[ span[class='seldropdown'] find ok]
+DEBUG    root:logger.py:35 --[ ordinarystaff ok]
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 GET http://127.0.0.1:53602/session/ac2332811c07a2f68c2c1ebce100e9e4/screenshot {"sessionId": "ac2332811c07a2f68c2c1ebce100e9e4"}
+DEBUG    urllib3.connectionpool:connectionpool.py:393 http://127.0.0.1:53602 "GET /session/ac2332811c07a2f68c2c1ebce100e9e4/screenshot HTTP/1.1" 200 212886
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 DELETE http://127.0.0.1:53602/session/ac2332811c07a2f68c2c1ebce100e9e4 {"sessionId": "ac2332811c07a2f68c2c1ebce100e9e4"}
+DEBUG    urllib3.connectionpool:connectionpool.py:393 http://127.0.0.1:53602 "DELETE /session/ac2332811c07a2f68c2c1ebce100e9e4 HTTP/1.1" 200 72
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request

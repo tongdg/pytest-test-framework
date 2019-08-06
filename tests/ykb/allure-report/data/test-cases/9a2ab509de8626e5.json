@@ -1,0 +1,151 @@
+{
+  "uid" : "9a2ab509de8626e5",
+  "name" : "test_cost_bill_process1[chrome-tongdg艺赛旗-普通员工-ykb-测试项目]",
+  "fullName" : "pc.test_cost_bill#test_cost_bill_process1[chrome-tongdg艺赛旗-普通员工-ykb-测试项目]",
+  "historyId" : "675333cebf507adecbf17967752dcbf5",
+  "time" : {
+    "start" : 1564566416916,
+    "stop" : 1564566641973,
+    "duration" : 225057
+  },
+  "description" : "费用报销单-会签（项目）-直属领导（过滤）业务-直属领导-财务-复核-出纳",
+  "descriptionHtml" : "<p>费用报销单-会签（项目）-直属领导（过滤）业务-直属领导-财务-复核-出纳</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: 部门领导查找单据失败\nassert False",
+  "statusTrace" : "pc\\test_cost_bill.py:57: in test_cost_bill_process1\n    assert result, '部门领导查找单据失败'\nE   AssertionError: 部门领导查找单据失败\nE   assert False",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "__pytest_repeat_step_number",
+    "time" : {
+      "start" : 1564566411310,
+      "stop" : 1564566411310,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "multi_browser_driver",
+    "time" : {
+      "start" : 1564566411310,
+      "stop" : 1564566416914,
+      "duration" : 5604
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "费用报销单-会签（项目）-直属领导（过滤）业务-直属领导-财务-复核-出纳",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: 部门领导查找单据失败\nassert False",
+    "statusTrace" : "pc\\test_cost_bill.py:57: in test_cost_bill_process1\n    assert result, '部门领导查找单据失败'\nE   AssertionError: 部门领导查找单据失败\nE   assert False",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c4e5df5130654d49",
+      "name" : "错误截图！",
+      "source" : "c4e5df5130654d49.png",
+      "type" : "image/png",
+      "size" : 31561
+    }, {
+      "uid" : "e1eac888a80f7283",
+      "name" : "log",
+      "source" : "e1eac888a80f7283.txt",
+      "type" : "text/plain",
+      "size" : 231961
+    }, {
+      "uid" : "182c676d5ab2b4c3",
+      "name" : "stdout",
+      "source" : "182c676d5ab2b4c3.txt",
+      "type" : "text/plain",
+      "size" : 5383
+    }, {
+      "uid" : "f3660335d26606fe",
+      "name" : "stderr",
+      "source" : "f3660335d26606fe.txt",
+      "type" : "text/plain",
+      "size" : 26080
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "multi_browser_driver::0",
+    "time" : {
+      "start" : 1564566642207,
+      "stop" : 1564566645059,
+      "duration" : 2852
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "pc"
+  }, {
+    "name" : "suite",
+    "value" : "test_cost_bill"
+  }, {
+    "name" : "subSuite"
+  }, {
+    "name" : "host",
+    "value" : "W7-201707071701"
+  }, {
+    "name" : "thread",
+    "value" : "13184-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pc.test_cost_bill"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "enterprise",
+    "value" : "'tongdg艺赛旗'"
+  }, {
+    "name" : "login_name",
+    "value" : "'普通员工'"
+  }, {
+    "name" : "multi_browser_driver",
+    "value" : "'chrome'"
+  }, {
+    "name" : "project",
+    "value" : "'ykb-测试项目'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9a2ab509de8626e5.json",
+  "parameterValues" : [ "'tongdg艺赛旗'", "'普通员工'", "'chrome'", "'ykb-测试项目'" ]
+}

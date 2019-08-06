@@ -1,0 +1,41 @@
+[ {
+  "buildOrder" : 5,
+  "reportUrl" : "http://localhost:8080/jenkins/job/ykb_smoke_pytest/5/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 14,
+    "retry" : 16
+  }
+}, {
+  "buildOrder" : 4,
+  "reportUrl" : "http://localhost:8080/jenkins/job/ykb_smoke_pytest/4/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 14,
+    "retry" : 2
+  }
+}, {
+  "buildOrder" : 3,
+  "reportUrl" : "http://localhost:8080/jenkins/job/ykb_smoke_pytest/3/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 1,
+    "retry" : 1
+  }
+}, {
+  "buildOrder" : 2,
+  "reportUrl" : "http://localhost:8080/jenkins/job/ykb_smoke_pytest/2/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 1,
+    "retry" : 1
+  }
+}, {
+  "buildOrder" : 1,
+  "reportUrl" : "http://localhost:8080/jenkins/job/ykb_smoke_pytest/1/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 1,
+    "retry" : 0
+  }
+} ]

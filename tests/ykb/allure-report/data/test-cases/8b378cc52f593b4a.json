@@ -1,0 +1,151 @@
+{
+  "uid" : "8b378cc52f593b4a",
+  "name" : "test_cost_bill_process3[chrome-tongdg艺赛旗-普通员工]",
+  "fullName" : "pc.test_cost_bill#test_cost_bill_process3[chrome-tongdg艺赛旗-普通员工]",
+  "historyId" : "2c62be14c4e3cc721494ca54714d968f",
+  "time" : {
+    "start" : 1564566418021,
+    "stop" : 1564566576539,
+    "duration" : 158518
+  },
+  "description" : "费用报销单-业务-直属领导-财务-加审领导-财务-复核加审-财务总监-出纳",
+  "descriptionHtml" : "<p>费用报销单-业务-直属领导-财务-加审领导-财务-复核加审-财务总监-出纳</p>\n",
+  "status" : "broken",
+  "statusMessage" : "TypeError: can only concatenate str (not \"WebDriverException\") to str",
+  "statusTrace" : "c:\\python37\\lib\\site-packages\\ykb\\pc\\approval_page.py:562: in __find_new_bill\n    self.driver.switch_to.frame(self.get_new_main_frame)\nc:\\python37\\lib\\site-packages\\selenium\\webdriver\\remote\\switch_to.py:89: in frame\n    self._driver.execute(Command.SWITCH_TO_FRAME, {'id': frame_reference})\nc:\\python37\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py:321: in execute\n    self.error_handler.check_response(response)\nc:\\python37\\lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py:242: in check_response\n    raise exception_class(message, screen, stacktrace)\nE   selenium.common.exceptions.WebDriverException: Message: unknown error: invalid 'id'\nE     (Session info: chrome=74.0.3729.169)\nE     (Driver info: chromedriver=70.0.3538.97 (d035916fe243477005bc95fe2a5778b8f20b6ae1),platform=Windows NT 6.1.7601 SP1 x86_64)\n\nDuring handling of the above exception, another exception occurred:\npc\\test_cost_bill.py:342: in test_cost_bill_process3\n    result = appro_page.enter_list_find_new_bill()\nc:\\python37\\lib\\site-packages\\ykb\\pc\\approval_page.py:583: in enter_list_find_new_bill\n    return self.__find_new_bill()\nc:\\python37\\lib\\site-packages\\ykb\\pc\\approval_page.py:575: in __find_new_bill\n    self.log.error('--[错误信息是：'+ e +']')\nE   TypeError: can only concatenate str (not \"WebDriverException\") to str",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "multi_browser_driver",
+    "time" : {
+      "start" : 1564566411310,
+      "stop" : 1564566418019,
+      "duration" : 6709
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "__pytest_repeat_step_number",
+    "time" : {
+      "start" : 1564566411310,
+      "stop" : 1564566411310,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "费用报销单-业务-直属领导-财务-加审领导-财务-复核加审-财务总监-出纳",
+    "status" : "broken",
+    "statusMessage" : "TypeError: can only concatenate str (not \"WebDriverException\") to str",
+    "statusTrace" : "c:\\python37\\lib\\site-packages\\ykb\\pc\\approval_page.py:562: in __find_new_bill\n    self.driver.switch_to.frame(self.get_new_main_frame)\nc:\\python37\\lib\\site-packages\\selenium\\webdriver\\remote\\switch_to.py:89: in frame\n    self._driver.execute(Command.SWITCH_TO_FRAME, {'id': frame_reference})\nc:\\python37\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py:321: in execute\n    self.error_handler.check_response(response)\nc:\\python37\\lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py:242: in check_response\n    raise exception_class(message, screen, stacktrace)\nE   selenium.common.exceptions.WebDriverException: Message: unknown error: invalid 'id'\nE     (Session info: chrome=74.0.3729.169)\nE     (Driver info: chromedriver=70.0.3538.97 (d035916fe243477005bc95fe2a5778b8f20b6ae1),platform=Windows NT 6.1.7601 SP1 x86_64)\n\nDuring handling of the above exception, another exception occurred:\npc\\test_cost_bill.py:342: in test_cost_bill_process3\n    result = appro_page.enter_list_find_new_bill()\nc:\\python37\\lib\\site-packages\\ykb\\pc\\approval_page.py:583: in enter_list_find_new_bill\n    return self.__find_new_bill()\nc:\\python37\\lib\\site-packages\\ykb\\pc\\approval_page.py:575: in __find_new_bill\n    self.log.error('--[错误信息是：'+ e +']')\nE   TypeError: can only concatenate str (not \"WebDriverException\") to str",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "329477cc9fd01b00",
+      "name" : "错误截图！",
+      "source" : "329477cc9fd01b00.png",
+      "type" : "image/png",
+      "size" : 105382
+    }, {
+      "uid" : "16b786e6db49f47e",
+      "name" : "log",
+      "source" : "16b786e6db49f47e.txt",
+      "type" : "text/plain",
+      "size" : 90217
+    }, {
+      "uid" : "72607ee123a15239",
+      "name" : "stdout",
+      "source" : "72607ee123a15239.txt",
+      "type" : "text/plain",
+      "size" : 579
+    }, {
+      "uid" : "e2f002e5f6f003d4",
+      "name" : "stderr",
+      "source" : "e2f002e5f6f003d4.txt",
+      "type" : "text/plain",
+      "size" : 9381
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "multi_browser_driver::0",
+    "time" : {
+      "start" : 1564566576758,
+      "stop" : 1564566579531,
+      "duration" : 2773
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pc"
+  }, {
+    "name" : "suite",
+    "value" : "test_cost_bill"
+  }, {
+    "name" : "subSuite"
+  }, {
+    "name" : "host",
+    "value" : "W7-201707071701"
+  }, {
+    "name" : "thread",
+    "value" : "13460-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pc.test_cost_bill"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "enterprise",
+    "value" : "'tongdg艺赛旗'"
+  }, {
+    "name" : "login_name",
+    "value" : "'普通员工'"
+  }, {
+    "name" : "multi_browser_driver",
+    "value" : "'chrome'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "8b378cc52f593b4a.json",
+  "parameterValues" : [ "'tongdg艺赛旗'", "'普通员工'", "'chrome'" ]
+}

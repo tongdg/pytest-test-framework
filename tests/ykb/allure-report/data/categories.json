@@ -1,0 +1,180 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "IndexError: list index out of range",
+      "children" : [ {
+        "name" : "test_evection_process2[chrome-tongdg艺赛旗-普通员工]",
+        "uid" : "600aa27e943a8a1c",
+        "parentUid" : "cbf21ee610ffd376e0ce643a364ade80",
+        "status" : "broken",
+        "time" : {
+          "start" : 1564566582671,
+          "stop" : 1564566652708,
+          "duration" : 70037
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'tongdg艺赛旗'", "'普通员工'", "'chrome'" ]
+      }, {
+        "name" : "test_evection_process3[chrome-tongdg艺赛旗-普通员工-ykb-测试小组]",
+        "uid" : "7c3e2469e8db5b6a",
+        "parentUid" : "cbf21ee610ffd376e0ce643a364ade80",
+        "status" : "broken",
+        "time" : {
+          "start" : 1564566603151,
+          "stop" : 1564566708924,
+          "duration" : 105773
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ykb-测试小组'", "'tongdg艺赛旗'", "'普通员工'", "'chrome'" ]
+      } ],
+      "uid" : "cbf21ee610ffd376e0ce643a364ade80"
+    }, {
+      "name" : "AttributeError: 'bool' object has no attribute 'text'",
+      "children" : [ {
+        "name" : "test_evection_process1[chrome-tongdg艺赛旗-普通员工-ykb-测试小组-ykb-测试项目]",
+        "uid" : "e58f5030cdc8f8b8",
+        "parentUid" : "7c651ac66caa60590b88772fc3be5b27",
+        "status" : "broken",
+        "time" : {
+          "start" : 1564566650171,
+          "stop" : 1564566760511,
+          "duration" : 110340
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ykb-测试小组'", "'tongdg艺赛旗'", "'普通员工'", "'chrome'", "'ykb-测试项目'" ]
+      }, {
+        "name" : "test_evection_process4[chrome-tongdg艺赛旗-普通员工-ykb-测试项目]",
+        "uid" : "2f3c86f908aaba1d",
+        "parentUid" : "7c651ac66caa60590b88772fc3be5b27",
+        "status" : "broken",
+        "time" : {
+          "start" : 1564566660552,
+          "stop" : 1564566784125,
+          "duration" : 123573
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'tongdg艺赛旗'", "'普通员工'", "'chrome'", "'ykb-测试项目'" ]
+      }, {
+        "name" : "test_evection_process5[chrome-tongdg艺赛旗-普通员工]",
+        "uid" : "8aa56fc576d8f2ba",
+        "parentUid" : "7c651ac66caa60590b88772fc3be5b27",
+        "status" : "broken",
+        "time" : {
+          "start" : 1564566716944,
+          "stop" : 1564566840396,
+          "duration" : 123452
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'tongdg艺赛旗'", "'普通员工'", "'chrome'" ]
+      }, {
+        "name" : "test_enter_fill_evecation_bill[chrome]",
+        "uid" : "fb48701fa5f0c63a",
+        "parentUid" : "7c651ac66caa60590b88772fc3be5b27",
+        "status" : "broken",
+        "time" : {
+          "start" : 1564566746224,
+          "stop" : 1564566862768,
+          "duration" : 116544
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chrome'" ]
+      }, {
+        "name" : "test_cost_bill_process4[chrome-tongdg艺赛旗-普通员工-ykb-测试小组-ykb-测试项目]",
+        "uid" : "a3042bc9e8d368fd",
+        "parentUid" : "7c651ac66caa60590b88772fc3be5b27",
+        "status" : "broken",
+        "time" : {
+          "start" : 1564567942107,
+          "stop" : 1564568211114,
+          "duration" : 269007
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ykb-测试小组'", "'tongdg艺赛旗'", "'普通员工'", "'chrome'", "'ykb-测试项目'" ]
+      } ],
+      "uid" : "7c651ac66caa60590b88772fc3be5b27"
+    }, {
+      "name" : "TypeError: can only concatenate str (not \"WebDriverException\") to str",
+      "children" : [ {
+        "name" : "test_cost_bill_process3[chrome-tongdg艺赛旗-普通员工]",
+        "uid" : "12b747a2e5c03a7f",
+        "parentUid" : "48f009ef16f4a078a47c10e3edd61e39",
+        "status" : "broken",
+        "time" : {
+          "start" : 1564567942488,
+          "stop" : 1564568105865,
+          "duration" : 163377
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'tongdg艺赛旗'", "'普通员工'", "'chrome'" ]
+      } ],
+      "uid" : "48f009ef16f4a078a47c10e3edd61e39"
+    }, {
+      "name" : "TypeError: 'bool' object is not subscriptable",
+      "children" : [ {
+        "name" : "test_cost_bill_process2[chrome-tongdg艺赛旗-普通员工-ykb-测试项目]",
+        "uid" : "14404258acaa2788",
+        "parentUid" : "c592040e2306d463e6685639a7b719af",
+        "status" : "broken",
+        "time" : {
+          "start" : 1564567942717,
+          "stop" : 1564568210772,
+          "duration" : 268055
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'tongdg艺赛旗'", "'普通员工'", "'chrome'", "'ykb-测试项目'" ]
+      } ],
+      "uid" : "c592040e2306d463e6685639a7b719af"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: 公司领导查找单据失败\nassert False",
+      "children" : [ {
+        "name" : "test_cost_bill_process1[chrome-tongdg艺赛旗-普通员工-ykb-测试项目]",
+        "uid" : "5f596ed3af311858",
+        "parentUid" : "42715d196ab966e8fe6a0d6f372c9bb2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1564567942193,
+          "stop" : 1564568186128,
+          "duration" : 243935
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'tongdg艺赛旗'", "'普通员工'", "'chrome'", "'ykb-测试项目'" ]
+      } ],
+      "uid" : "42715d196ab966e8fe6a0d6f372c9bb2"
+    }, {
+      "name" : "AssertionError: 登录失败！\nassert True is not True",
+      "children" : [ {
+        "name" : "test_allure_report[chrome]",
+        "uid" : "df144925100c2ef0",
+        "parentUid" : "8699c2508701f1fd7d605be9670441a9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1564568193512,
+          "stop" : 1564568263082,
+          "duration" : 69570
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chrome'" ]
+      } ],
+      "uid" : "8699c2508701f1fd7d605be9670441a9"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

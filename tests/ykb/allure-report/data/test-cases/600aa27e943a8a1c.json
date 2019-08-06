@@ -1,0 +1,188 @@
+{
+  "uid" : "600aa27e943a8a1c",
+  "name" : "test_evection_process2[chrome-tongdg艺赛旗-普通员工]",
+  "fullName" : "pc.test_evection_bill#test_evection_process2[chrome-tongdg艺赛旗-普通员工]",
+  "historyId" : "92786beb9dcac470c69ab6508750938b",
+  "time" : {
+    "start" : 1564566582671,
+    "stop" : 1564566652708,
+    "duration" : 70037
+  },
+  "description" : "出差申请单-业务-直属领导",
+  "descriptionHtml" : "<p>出差申请单-业务-直属领导</p>\n",
+  "status" : "broken",
+  "statusMessage" : "IndexError: list index out of range",
+  "statusTrace" : "pc\\test_evection_bill.py:126: in test_evection_process2\n    result = appro_page.enter_fill_evecation_bill()\nc:\\python37\\lib\\site-packages\\ykb\\pc\\bill_page.py:679: in enter_fill_evecation_bill\n    return self.__fill_evection_bill(department, project, switch)\nc:\\python37\\lib\\site-packages\\ykb\\pc\\bill_page.py:637: in __fill_evection_bill\n    self.click(self.time_contro_day[2])\nE   IndexError: list index out of range",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "multi_browser_driver",
+    "time" : {
+      "start" : 1564566579560,
+      "stop" : 1564566582669,
+      "duration" : 3109
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "__pytest_repeat_step_number",
+    "time" : {
+      "start" : 1564566579560,
+      "stop" : 1564566579560,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "出差申请单-业务-直属领导",
+    "status" : "broken",
+    "statusMessage" : "IndexError: list index out of range",
+    "statusTrace" : "pc\\test_evection_bill.py:126: in test_evection_process2\n    result = appro_page.enter_fill_evecation_bill()\nc:\\python37\\lib\\site-packages\\ykb\\pc\\bill_page.py:679: in enter_fill_evecation_bill\n    return self.__fill_evection_bill(department, project, switch)\nc:\\python37\\lib\\site-packages\\ykb\\pc\\bill_page.py:637: in __fill_evection_bill\n    self.click(self.time_contro_day[2])\nE   IndexError: list index out of range",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9a51d2d8dcae7829",
+      "name" : "错误截图！",
+      "source" : "9a51d2d8dcae7829.png",
+      "type" : "image/png",
+      "size" : 53352
+    }, {
+      "uid" : "49118bdd2d84c0e2",
+      "name" : "log",
+      "source" : "49118bdd2d84c0e2.txt",
+      "type" : "text/plain",
+      "size" : 22669
+    }, {
+      "uid" : "8afbaca07245027",
+      "name" : "stderr",
+      "source" : "8afbaca07245027.txt",
+      "type" : "text/plain",
+      "size" : 2656
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "multi_browser_driver::0",
+    "time" : {
+      "start" : 1564566652802,
+      "stop" : 1564566656118,
+      "duration" : 3316
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "pc"
+  }, {
+    "name" : "suite",
+    "value" : "test_evection_bill"
+  }, {
+    "name" : "subSuite"
+  }, {
+    "name" : "host",
+    "value" : "W7-201707071701"
+  }, {
+    "name" : "thread",
+    "value" : "13460-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pc.test_evection_bill"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "enterprise",
+    "value" : "'tongdg艺赛旗'"
+  }, {
+    "name" : "login_name",
+    "value" : "'普通员工'"
+  }, {
+    "name" : "multi_browser_driver",
+    "value" : "'chrome'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2473c6e5458b5da4",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: 'D:\\\\django_study\\\\pytest_test_framework\\\\tests\\\\screenshot\\\\2019-07-31_17_36_43_excepiton.png'",
+      "time" : {
+        "start" : 1564565760694,
+        "stop" : 1564565803579,
+        "duration" : 42885
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "52eabbb7668b43b4",
+        "reportUrl" : "http://localhost:8080/jenkins/job/ykb_smoke_pytest/5/allure/#testresult/52eabbb7668b43b4",
+        "status" : "broken",
+        "statusDetails" : "IndexError: list index out of range",
+        "time" : {
+          "start" : 1564566582671,
+          "stop" : 1564566652708,
+          "duration" : 70037
+        }
+      }, {
+        "uid" : "4ac130d266df9919",
+        "reportUrl" : "http://localhost:8080/jenkins/job/ykb_smoke_pytest/4/allure/#testresult/4ac130d266df9919",
+        "status" : "broken",
+        "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: 'D:\\\\django_study\\\\pytest_test_framework\\\\tests\\\\screenshot\\\\2019-07-31_17_36_43_excepiton.png'",
+        "time" : {
+          "start" : 1564565760694,
+          "stop" : 1564565803579,
+          "duration" : 42885
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "600aa27e943a8a1c.json",
+  "parameterValues" : [ "'tongdg艺赛旗'", "'普通员工'", "'chrome'" ]
+}

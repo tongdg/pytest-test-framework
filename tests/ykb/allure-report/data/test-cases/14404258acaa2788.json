@@ -1,0 +1,206 @@
+{
+  "uid" : "14404258acaa2788",
+  "name" : "test_cost_bill_process2[chrome-tongdg艺赛旗-普通员工-ykb-测试项目]",
+  "fullName" : "pc.test_cost_bill#test_cost_bill_process2[chrome-tongdg艺赛旗-普通员工-ykb-测试项目]",
+  "historyId" : "d945ab52ba24a64efa1433e389f72809",
+  "time" : {
+    "start" : 1564567942717,
+    "stop" : 1564568210772,
+    "duration" : 268055
+  },
+  "description" : "费用报销单-会签（项目）-直属领导（过滤）业务-直属领导-财务-加审领导-财务-复核-出纳",
+  "descriptionHtml" : "<p>费用报销单-会签（项目）-直属领导（过滤）业务-直属领导-财务-加审领导-财务-复核-出纳</p>\n",
+  "status" : "broken",
+  "statusMessage" : "TypeError: 'bool' object is not subscriptable",
+  "statusTrace" : "pc\\test_cost_bill.py:233: in test_cost_bill_process2\n    result = appro_page.enter_list_find_finance_reimbursement()\nc:\\python37\\lib\\site-packages\\ykb\\pc\\approval_page.py:670: in enter_list_find_finance_reimbursement\n    return self.__find_finance_reimbursement()\nc:\\python37\\lib\\site-packages\\ykb\\pc\\approval_page.py:655: in __find_finance_reimbursement\n    flag = self.list_find_examine_reimbursement_bill_flag\nc:\\python37\\lib\\site-packages\\ykb\\pc\\approval_page.py:100: in list_find_examine_reimbursement_bill_flag\n    lambda var: self.list_to_examine_reimbursement_bills[0].find_element_by_css_selector(\"input[type='checkbox']\")\n..\\..\\..\\new-ykb-test-framework\\pages\\base_page.py:199: in find_element_by_hierarchy\n    ele = WebDriverWait(self.driver, timeout).until(method)\nc:\\python37\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:71: in until\n    value = method(self._driver)\nc:\\python37\\lib\\site-packages\\ykb\\pc\\approval_page.py:100: in <lambda>\n    lambda var: self.list_to_examine_reimbursement_bills[0].find_element_by_css_selector(\"input[type='checkbox']\")\nE   TypeError: 'bool' object is not subscriptable",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "__pytest_repeat_step_number",
+    "time" : {
+      "start" : 1564567937368,
+      "stop" : 1564567937368,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "multi_browser_driver",
+    "time" : {
+      "start" : 1564567937369,
+      "stop" : 1564567942716,
+      "duration" : 5347
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "费用报销单-会签（项目）-直属领导（过滤）业务-直属领导-财务-加审领导-财务-复核-出纳",
+    "status" : "broken",
+    "statusMessage" : "TypeError: 'bool' object is not subscriptable",
+    "statusTrace" : "pc\\test_cost_bill.py:233: in test_cost_bill_process2\n    result = appro_page.enter_list_find_finance_reimbursement()\nc:\\python37\\lib\\site-packages\\ykb\\pc\\approval_page.py:670: in enter_list_find_finance_reimbursement\n    return self.__find_finance_reimbursement()\nc:\\python37\\lib\\site-packages\\ykb\\pc\\approval_page.py:655: in __find_finance_reimbursement\n    flag = self.list_find_examine_reimbursement_bill_flag\nc:\\python37\\lib\\site-packages\\ykb\\pc\\approval_page.py:100: in list_find_examine_reimbursement_bill_flag\n    lambda var: self.list_to_examine_reimbursement_bills[0].find_element_by_css_selector(\"input[type='checkbox']\")\n..\\..\\..\\new-ykb-test-framework\\pages\\base_page.py:199: in find_element_by_hierarchy\n    ele = WebDriverWait(self.driver, timeout).until(method)\nc:\\python37\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:71: in until\n    value = method(self._driver)\nc:\\python37\\lib\\site-packages\\ykb\\pc\\approval_page.py:100: in <lambda>\n    lambda var: self.list_to_examine_reimbursement_bills[0].find_element_by_css_selector(\"input[type='checkbox']\")\nE   TypeError: 'bool' object is not subscriptable",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a17478ee7fcf40f6",
+      "name" : "错误截图！",
+      "source" : "a17478ee7fcf40f6.png",
+      "type" : "image/png",
+      "size" : 35646
+    }, {
+      "uid" : "f555e9837d12e96d",
+      "name" : "log",
+      "source" : "f555e9837d12e96d.txt",
+      "type" : "text/plain",
+      "size" : 219169
+    }, {
+      "uid" : "92e794b1634308f4",
+      "name" : "stdout",
+      "source" : "92e794b1634308f4.txt",
+      "type" : "text/plain",
+      "size" : 1782
+    }, {
+      "uid" : "fa5a2c734af1ebac",
+      "name" : "stderr",
+      "source" : "fa5a2c734af1ebac.txt",
+      "type" : "text/plain",
+      "size" : 26209
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "multi_browser_driver::0",
+    "time" : {
+      "start" : 1564568211120,
+      "stop" : 1564568214780,
+      "duration" : 3660
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "pc"
+  }, {
+    "name" : "suite",
+    "value" : "test_cost_bill"
+  }, {
+    "name" : "subSuite"
+  }, {
+    "name" : "host",
+    "value" : "W7-201707071701"
+  }, {
+    "name" : "thread",
+    "value" : "12864-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pc.test_cost_bill"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "enterprise",
+    "value" : "'tongdg艺赛旗'"
+  }, {
+    "name" : "login_name",
+    "value" : "'普通员工'"
+  }, {
+    "name" : "multi_browser_driver",
+    "value" : "'chrome'"
+  }, {
+    "name" : "project",
+    "value" : "'ykb-测试项目'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3474159bd8570fd",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 部门领导查找单据失败\nassert False",
+      "time" : {
+        "start" : 1564566417734,
+        "stop" : 1564566644313,
+        "duration" : 226579
+      }
+    }, {
+      "uid" : "a2c674d7887dc970",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: 'D:\\\\django_study\\\\pytest_test_framework\\\\tests\\\\screenshot\\\\2019-07-31_17_37_18_excepiton.png'",
+      "time" : {
+        "start" : 1564565651811,
+        "stop" : 1564565839502,
+        "duration" : 187691
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "edd11b82da1e7607",
+        "reportUrl" : "http://localhost:8080/jenkins/job/ykb_smoke_pytest/5/allure/#testresult/edd11b82da1e7607",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: 部门领导查找单据失败\nassert False",
+        "time" : {
+          "start" : 1564566417734,
+          "stop" : 1564566644313,
+          "duration" : 226579
+        }
+      }, {
+        "uid" : "d95a63b6c4c7375b",
+        "reportUrl" : "http://localhost:8080/jenkins/job/ykb_smoke_pytest/4/allure/#testresult/d95a63b6c4c7375b",
+        "status" : "broken",
+        "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: 'D:\\\\django_study\\\\pytest_test_framework\\\\tests\\\\screenshot\\\\2019-07-31_17_37_18_excepiton.png'",
+        "time" : {
+          "start" : 1564565651811,
+          "stop" : 1564565839502,
+          "duration" : 187691
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "14404258acaa2788.json",
+  "parameterValues" : [ "'tongdg艺赛旗'", "'普通员工'", "'chrome'", "'ykb-测试项目'" ]
+}

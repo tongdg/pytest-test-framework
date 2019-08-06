@@ -1,0 +1,139 @@
+{
+  "uid" : "697646943d4feaac",
+  "name" : "test_allure_report[chrome]",
+  "fullName" : "pc.test_cost_bill#test_allure_report[chrome]",
+  "historyId" : "55818c81663d44b0cef8c649e9c2873d",
+  "time" : {
+    "start" : 1564566648216,
+    "stop" : 1564566739930,
+    "duration" : 91714
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: 登录失败！\nassert True is not True",
+  "statusTrace" : "pc\\test_cost_bill.py:615: in test_allure_report\n    assert result is not True, '登录失败！'\nE   AssertionError: 登录失败！\nE   assert True is not True",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "multi_browser_driver",
+    "time" : {
+      "start" : 1564566645091,
+      "stop" : 1564566648214,
+      "duration" : 3123
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "__pytest_repeat_step_number",
+    "time" : {
+      "start" : 1564566645090,
+      "stop" : 1564566645090,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: 登录失败！\nassert True is not True",
+    "statusTrace" : "pc\\test_cost_bill.py:615: in test_allure_report\n    assert result is not True, '登录失败！'\nE   AssertionError: 登录失败！\nE   assert True is not True",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5450965adb4f2124",
+      "name" : "错误截图！",
+      "source" : "5450965adb4f2124.png",
+      "type" : "image/png",
+      "size" : 159611
+    }, {
+      "uid" : "8f3e68247d74c33d",
+      "name" : "log",
+      "source" : "8f3e68247d74c33d.txt",
+      "type" : "text/plain",
+      "size" : 11080
+    }, {
+      "uid" : "31de1601ed5a56b1",
+      "name" : "stderr",
+      "source" : "31de1601ed5a56b1.txt",
+      "type" : "text/plain",
+      "size" : 1010
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "multi_browser_driver::0",
+    "time" : {
+      "start" : 1564566739966,
+      "stop" : 1564566742685,
+      "duration" : 2719
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "test"
+  }, {
+    "name" : "tag",
+    "value" : "test"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pc"
+  }, {
+    "name" : "suite",
+    "value" : "test_cost_bill"
+  }, {
+    "name" : "subSuite"
+  }, {
+    "name" : "host",
+    "value" : "W7-201707071701"
+  }, {
+    "name" : "thread",
+    "value" : "13184-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pc.test_cost_bill"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "multi_browser_driver",
+    "value" : "'chrome'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "test" ]
+  },
+  "source" : "697646943d4feaac.json",
+  "parameterValues" : [ "'chrome'" ]
+}

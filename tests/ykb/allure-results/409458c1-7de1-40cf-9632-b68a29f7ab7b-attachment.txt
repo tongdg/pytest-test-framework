@@ -1,0 +1,9 @@
+ykb-测试项目
+--[ wating 提交审批 ]
+--[ wating 提交中 ]
+--[ wating 提交中 ]
+--[ wating 提交中 ]
+--[ disappear2 #commitBtr ]
+--[ disappear div[class="messager progress-bar2"] ]
+--[ disappear div[class="messager progress-bar2"] ]
+--[ disappear div[class='messager success'] ]

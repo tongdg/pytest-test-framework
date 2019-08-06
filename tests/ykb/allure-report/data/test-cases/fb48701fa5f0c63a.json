@@ -1,0 +1,185 @@
+{
+  "uid" : "fb48701fa5f0c63a",
+  "name" : "test_enter_fill_evecation_bill[chrome]",
+  "fullName" : "pc.test_fill_bill#test_enter_fill_evecation_bill[chrome]",
+  "historyId" : "67bc6d63c61934dafe98172c07179fab",
+  "time" : {
+    "start" : 1564566746224,
+    "stop" : 1564566862768,
+    "duration" : 116544
+  },
+  "description" : "进入出差申请单-填写出差申请单-断言",
+  "descriptionHtml" : "<p>进入出差申请单-填写出差申请单-断言</p>\n",
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'bool' object has no attribute 'text'",
+  "statusTrace" : "pc\\test_fill_bill.py:23: in test_enter_fill_evecation_bill\n    evecation_result = bill_page.enter_fill_evecation_bill()\nc:\\python37\\lib\\site-packages\\ykb\\pc\\bill_page.py:679: in enter_fill_evecation_bill\n    return self.__fill_evection_bill(department, project, switch)\nc:\\python37\\lib\\site-packages\\ykb\\pc\\bill_page.py:626: in __fill_evection_bill\n    if \"出差申请单\" not in self.evection_apply_bill.text:\nE   AttributeError: 'bool' object has no attribute 'text'",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "multi_browser_driver",
+    "time" : {
+      "start" : 1564566742714,
+      "stop" : 1564566746223,
+      "duration" : 3509
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "__pytest_repeat_step_number",
+    "time" : {
+      "start" : 1564566742714,
+      "stop" : 1564566742714,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "进入出差申请单-填写出差申请单-断言",
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'bool' object has no attribute 'text'",
+    "statusTrace" : "pc\\test_fill_bill.py:23: in test_enter_fill_evecation_bill\n    evecation_result = bill_page.enter_fill_evecation_bill()\nc:\\python37\\lib\\site-packages\\ykb\\pc\\bill_page.py:679: in enter_fill_evecation_bill\n    return self.__fill_evection_bill(department, project, switch)\nc:\\python37\\lib\\site-packages\\ykb\\pc\\bill_page.py:626: in __fill_evection_bill\n    if \"出差申请单\" not in self.evection_apply_bill.text:\nE   AttributeError: 'bool' object has no attribute 'text'",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "67160cf2a8be210a",
+      "name" : "错误截图！",
+      "source" : "67160cf2a8be210a.png",
+      "type" : "image/png",
+      "size" : 19163
+    }, {
+      "uid" : "2fe79594e51b9bfa",
+      "name" : "log",
+      "source" : "2fe79594e51b9bfa.txt",
+      "type" : "text/plain",
+      "size" : 32436
+    }, {
+      "uid" : "f85a46726e0c36ac",
+      "name" : "stderr",
+      "source" : "f85a46726e0c36ac.txt",
+      "type" : "text/plain",
+      "size" : 2010
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "multi_browser_driver::0",
+    "time" : {
+      "start" : 1564566862816,
+      "stop" : 1564566865855,
+      "duration" : 3039
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pc"
+  }, {
+    "name" : "suite",
+    "value" : "test_fill_bill"
+  }, {
+    "name" : "subSuite"
+  }, {
+    "name" : "host",
+    "value" : "W7-201707071701"
+  }, {
+    "name" : "thread",
+    "value" : "13184-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pc.test_fill_bill"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "multi_browser_driver",
+    "value" : "'chrome'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6601bcffcd4ebbfd",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: 'D:\\\\django_study\\\\pytest_test_framework\\\\tests\\\\screenshot\\\\2019-07-31_17_41_06_excepiton.png'",
+      "time" : {
+        "start" : 1564565954539,
+        "stop" : 1564566066695,
+        "duration" : 112156
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "82621079191298e7",
+        "reportUrl" : "http://localhost:8080/jenkins/job/ykb_smoke_pytest/5/allure/#testresult/82621079191298e7",
+        "status" : "broken",
+        "statusDetails" : "AttributeError: 'bool' object has no attribute 'text'",
+        "time" : {
+          "start" : 1564566746224,
+          "stop" : 1564566862768,
+          "duration" : 116544
+        }
+      }, {
+        "uid" : "a4dacbad9c168a2",
+        "reportUrl" : "http://localhost:8080/jenkins/job/ykb_smoke_pytest/4/allure/#testresult/a4dacbad9c168a2",
+        "status" : "broken",
+        "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: 'D:\\\\django_study\\\\pytest_test_framework\\\\tests\\\\screenshot\\\\2019-07-31_17_41_06_excepiton.png'",
+        "time" : {
+          "start" : 1564565954539,
+          "stop" : 1564566066695,
+          "duration" : 112156
+        }
+      } ]
+    },
+    "tags" : [ "smoke" ]
+  },
+  "source" : "fb48701fa5f0c63a.json",
+  "parameterValues" : [ "'chrome'" ]
+}

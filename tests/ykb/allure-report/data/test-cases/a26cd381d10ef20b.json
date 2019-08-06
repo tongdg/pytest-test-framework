@@ -1,0 +1,139 @@
+{
+  "uid" : "a26cd381d10ef20b",
+  "name" : "test_cost_bill_process3[chrome-tongdg艺赛旗-普通员工]",
+  "fullName" : "pc.test_cost_bill#test_cost_bill_process3[chrome-tongdg艺赛旗-普通员工]",
+  "historyId" : "2c62be14c4e3cc721494ca54714d968f",
+  "time" : {
+    "start" : 1564565651266,
+    "stop" : 1564565754902,
+    "duration" : 103636
+  },
+  "description" : "费用报销单-业务-直属领导-财务-加审领导-财务-复核加审-财务总监-出纳",
+  "descriptionHtml" : "<p>费用报销单-业务-直属领导-财务-加审领导-财务-复核加审-财务总监-出纳</p>\n",
+  "status" : "broken",
+  "statusMessage" : "FileNotFoundError: [Errno 2] No such file or directory: 'D:\\\\django_study\\\\pytest_test_framework\\\\tests\\\\screenshot\\\\2019-07-31_17_35_54_excepiton.png'",
+  "statusTrace" : "decorator.py:12: in wrapper\n    return func(*args, **kw)\npc\\test_cost_bill.py:334: in test_cost_bill_process3\n    result = appro_page.enter_fill_cost_bill()\nc:\\python37\\lib\\site-packages\\ykb\\pc\\bill_page.py:905: in enter_fill_cost_bill\n    return self.__fill_cost_bill(department, project)\nc:\\python37\\lib\\site-packages\\ykb\\pc\\bill_page.py:865: in __fill_cost_bill\n    self.send_keys(self.cost_abstract, 'tongdg测试费用报销单')\n..\\..\\..\\new-ykb-test-framework\\pages\\base_page.py:220: in send_keys\n    raise NoSuchElementException('查找超时，请维护脚本！')\nE   selenium.common.exceptions.NoSuchElementException: Message: 查找超时，请维护脚本！\n\nDuring handling of the above exception, another exception occurred:\ndecorator.py:18: in wrapper\n    file = open(save, 'rb').read()\nE   FileNotFoundError: [Errno 2] No such file or directory: 'D:\\\\django_study\\\\pytest_test_framework\\\\tests\\\\screenshot\\\\2019-07-31_17_35_54_excepiton.png'",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "multi_browser_driver",
+    "time" : {
+      "start" : 1564565645875,
+      "stop" : 1564565651264,
+      "duration" : 5389
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "__pytest_repeat_step_number",
+    "time" : {
+      "start" : 1564565645875,
+      "stop" : 1564565645875,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "费用报销单-业务-直属领导-财务-加审领导-财务-复核加审-财务总监-出纳",
+    "status" : "broken",
+    "statusMessage" : "FileNotFoundError: [Errno 2] No such file or directory: 'D:\\\\django_study\\\\pytest_test_framework\\\\tests\\\\screenshot\\\\2019-07-31_17_35_54_excepiton.png'",
+    "statusTrace" : "decorator.py:12: in wrapper\n    return func(*args, **kw)\npc\\test_cost_bill.py:334: in test_cost_bill_process3\n    result = appro_page.enter_fill_cost_bill()\nc:\\python37\\lib\\site-packages\\ykb\\pc\\bill_page.py:905: in enter_fill_cost_bill\n    return self.__fill_cost_bill(department, project)\nc:\\python37\\lib\\site-packages\\ykb\\pc\\bill_page.py:865: in __fill_cost_bill\n    self.send_keys(self.cost_abstract, 'tongdg测试费用报销单')\n..\\..\\..\\new-ykb-test-framework\\pages\\base_page.py:220: in send_keys\n    raise NoSuchElementException('查找超时，请维护脚本！')\nE   selenium.common.exceptions.NoSuchElementException: Message: 查找超时，请维护脚本！\n\nDuring handling of the above exception, another exception occurred:\ndecorator.py:18: in wrapper\n    file = open(save, 'rb').read()\nE   FileNotFoundError: [Errno 2] No such file or directory: 'D:\\\\django_study\\\\pytest_test_framework\\\\tests\\\\screenshot\\\\2019-07-31_17_35_54_excepiton.png'",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "90978f6fac46c03b",
+      "name" : "log",
+      "source" : "90978f6fac46c03b.txt",
+      "type" : "text/plain",
+      "size" : 25421
+    }, {
+      "uid" : "690e256b8b3557ed",
+      "name" : "stderr",
+      "source" : "690e256b8b3557ed.txt",
+      "type" : "text/plain",
+      "size" : 2369
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "multi_browser_driver::0",
+    "time" : {
+      "start" : 1564565755183,
+      "stop" : 1564565758021,
+      "duration" : 2838
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pc"
+  }, {
+    "name" : "suite",
+    "value" : "test_cost_bill"
+  }, {
+    "name" : "subSuite"
+  }, {
+    "name" : "host",
+    "value" : "W7-201707071701"
+  }, {
+    "name" : "thread",
+    "value" : "14636-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pc.test_cost_bill"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "enterprise",
+    "value" : "'tongdg艺赛旗'"
+  }, {
+    "name" : "login_name",
+    "value" : "'普通员工'"
+  }, {
+    "name" : "multi_browser_driver",
+    "value" : "'chrome'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "a26cd381d10ef20b.json",
+  "parameterValues" : [ "'tongdg艺赛旗'", "'普通员工'", "'chrome'" ]
+}
